@@ -1,0 +1,54 @@
+Total DEX induction targets: 3
+Total DEX repression targets: 1
+
+DFG Induction Targets
+At1g13300
+At1g19850
+At1g64380
+At1g66140
+At1g67910
+At1g68670
+At1g74660
+At2g17150
+At2g18160
+At2g42660
+At3g06590
+At3g11580
+At3g53340
+At4g23980
+At4g24020
+At4g37610
+At4g39780
+At5g15830
+At5g20885
+At5g22570
+At5g66350
+
+DEX Induction Targets
+At3g46130
+At5g15830
+At5g22890
+
+DFG Repression Targets
+At1g15100
+At1g22640
+At1g68880
+At2g24790
+At2g40750
+At3g04060
+At3g25790
+At3g55980
+At4g18880
+At4g34000
+At5g22890
+At5g25810
+At5g52170
+At5g61420
+
+DEX Repression Targets
+At3g60490
+
+Induction Intersection
+At5g15830
+
+Repression Intersection

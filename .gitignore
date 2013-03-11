@@ -1,5 +1,3 @@
-output/*
 *.pyc
-datasets/*
 .*
-results/*
+*.DS_Store

@@ -1,0 +1,8 @@
+At1g25550 -> At3g46130: Missed +
+At1g25550 -> At3g60490: Missed -
+At1g25550 -> At5g15830: Correct +
+At1g25550 -> At5g22890: Missed +
+
+Number correct: 1
+Total targets: 4
+Percent obtained: 0.25

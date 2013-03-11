@@ -1,0 +1,14 @@
+Algorithm,Parameters,Dataset,Average Network Consistent Genes,Average Network All Genes,Best Network Consistent Genes,Best Network All Genes
+clr+dfg,default,cnlo+no3+timeseries+dex,0.726415,0.707237,0.726415,0.707237
+clr+dfg,default,cnlo+timeseries+dex,0.707547,0.680921,0.783019,0.740132
+clr+dfg,default,no3+timeseries+dex,0.698113,0.680921,0.773585,0.733553
+clr+dfg,modified,cnlo+no3+timeseries+dex,0.735849,0.720395,0.735849,0.720395
+clr+dfg,modified,cnlo+timeseries+dex,0.735849,0.720395,0.735849,0.720395
+clr+dfg,modified,no3+timeseries+dex,0.735849,0.720395,0.745283,0.726974
+genie3+dfg,default,cnlo+no3+timeseries+dex,0.745283,0.713816,0.745283,0.713816
+genie3+dfg,default,cnlo+timeseries+dex,0.726415,0.707237,0.726415,0.707237
+genie3+dfg,default,no3+timeseries+dex,0.735849,0.713816,0.764151,0.726974
+genie3+dfg,modified,cnlo+no3+timeseries+dex,0.735849,0.720395,0.735849,0.720395
+genie3+dfg,modified,cnlo+timeseries+dex,0.735849,0.720395,0.745283,0.726974
+genie3+dfg,modified,no3+timeseries+dex,0.735849,0.720395,0.745283,0.726974
+dfg alone,modified,+dex,0.735849,0.700658,0.783019,0.740132

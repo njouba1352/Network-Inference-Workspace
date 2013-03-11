@@ -24,6 +24,7 @@ from ReadConfig import *
 from ReadData import *
 from datetime import datetime
 from shutil import copytree
+import traceback
 
 global settings
 
@@ -110,7 +111,7 @@ class Algorithm:
             return retcode
         except subprocess.CalledProcessError:
             print "Unexpected error:", sys.exc_info()
-            sys.exc_info()[2].print_exc()
+            traceback.print_exc()
             return -100
         except:
             print "Unexpected error:", sys.exc_info()

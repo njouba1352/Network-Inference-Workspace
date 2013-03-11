@@ -1,0 +1,35 @@
+At1g13300 -> At1g19850: Correct +
+At1g13300 -> At1g67910: Missed -
+At1g13300 -> At1g68880: Missed +
+At1g13300 -> At1g72830: Correct +
+At1g13300 -> At2g24790: Missed -
+At1g13300 -> At2g37430: Missed -
+At1g13300 -> At2g42660: Missed +
+At1g13300 -> At2g43000: Missed -
+At1g13300 -> At3g06380: Missed -
+At1g13300 -> At3g25790: Missed -
+At1g13300 -> At3g50750: Missed +
+At1g13300 -> At4g18880: Missed -
+At1g13300 -> At4g23980: Missed +
+At1g13300 -> At4g34000: Missed +
+At1g13300 -> At4g39780: Missed -
+At1g13300 -> At5g06800: Missed -
+At1g13300 -> At5g15830: Correct +
+At1g13300 -> At5g16770: Missed +
+At1g13300 -> At5g17490: Correct +
+At1g13300 -> At5g22570: Correct +
+At1g13300 -> At5g22890: Missed -
+At1g13300 -> At5g25810: Missed +
+At1g13300 -> At5g52170: Correct +
+At1g13300 -> At5g58900: Missed -
+At1g13300 -> At5g61420: Missed -
+At1g13300 -> At1g08090: Missed -
+At1g13300 -> At1g08100: Missed +
+At1g13300 -> At1g30510: Missed -
+At1g13300 -> At1g77760: Missed -
+At1g13300 -> At2g15620: Missed -
+At1g13300 -> At4g05390: Missed +
+
+Number correct: 6
+Total targets: 31
+Percent obtained: 0.193548387097

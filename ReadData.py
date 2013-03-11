@@ -20,8 +20,9 @@ def ReadData(input_file, type):
           if type.lower() == "timeseries":
               file.pop(0) # Burn first line
               genes = header[1:] # removing the time column from the header
-              for ds in xrange(file.count('\n')):
-                  input_file = "Timeseries-Rep" + str(ds) + ".csv"
+              for ds in xrange(file.count('\n') + 1):
+                  input_file = "Timeseries-Rep" + str(ds)
+                  print file.count('\n'), input_file
 
                   # Read in each MicroArray
                   datasets.append(MicroarrayData(input_file, type, ds))
@@ -34,8 +35,11 @@ def ReadData(input_file, type):
               prev_row = 0
               for exp in xrange(len(datasets)):
                   #print prev_row, file.index('\n')
-                  sep_exps.append(file[prev_row:file.index('\n')])
-                  file = file[file.index('\n') + 1:len(file)]
+                  if '\n' in file[prev_row:]:
+                    sep_exps.append(file[prev_row:file.index('\n')])
+                    file = file[file.index('\n') + 1:len(file)]
+                  else:
+                    sep_exps.append(file[prev_row:])
               # Create the experiments for each time point in the
               # MicroarrayData class
               for i, exp in enumerate(sep_exps):
